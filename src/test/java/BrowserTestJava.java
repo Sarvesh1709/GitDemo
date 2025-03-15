@@ -15,6 +15,7 @@ public class BrowserTestJava {
 		 driver.findElement(By.id("lst-ib")).sendKeys("abcd");
 		 WebElement textBox= driver.findElement(By.id("lst-ib"));
 		 textBox.sendKeys("Automation Step by Step");
+	    System.out.println("POST JIRA01");
 		 driver.close();
 	//	 driver.quit();
 }
