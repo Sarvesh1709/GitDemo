@@ -18,6 +18,8 @@ public class BrowserTestJava {
         System.out.println("POST JIRA01");
         System.out.println("New push0");
         System.out.println("New push01");
+        System.out.println("New push03");
+        System.out.println("New push04");
         driver.close();
         //	 driver.quit();
     }
